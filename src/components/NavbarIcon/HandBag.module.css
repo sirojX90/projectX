@@ -1,0 +1,8 @@
+.bag {
+    font-size: 10rem;
+    stroke-width: 0;
+}
+
+.bag:hover {
+    color: #d63384;
+}

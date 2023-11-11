@@ -1,0 +1,8 @@
+.like {
+    width: 4rem;
+    fill: white;
+}
+
+.like:hover {
+    fill: #d63384;
+}
