@@ -1,0 +1,13 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.header > img {
+    width: 80rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
