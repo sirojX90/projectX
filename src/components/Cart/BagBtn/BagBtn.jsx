@@ -1,7 +1,7 @@
 import React from 'react';
-import styles from './HandBag.module.css';
+import styles from './BagBtn.module.css';
 
-const HandBag = () => {
+const BagBtn = () => {
     return (
         <svg className={styles.bag} stroke="currentColor" fill="currentColor" viewBox="0 0 16 16" id="hand-bag" height=".4em"
             width="1em" xmlns="http://www.w3.org/2000/svg">
@@ -12,4 +12,4 @@ const HandBag = () => {
     )
 };
 
-export default HandBag;
+export default BagBtn;

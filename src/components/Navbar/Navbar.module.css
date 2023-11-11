@@ -8,17 +8,9 @@
 }
 
 .likeBag {
-    position: relative;
     font-size: 4rem;
     color: #fff;
     display: flex;
     gap: 4rem;
     align-items: center;
-}
-
-.count-number {
-    position: absolute;
-    bottom: -3rem;
-    right: 1.5rem;
-    font-size: 2rem;
 }

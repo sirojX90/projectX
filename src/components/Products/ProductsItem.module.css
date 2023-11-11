@@ -1,0 +1,36 @@
+.item {
+    width: 22%;
+    text-align: center;
+    box-shadow: 0 0 3px #252b48;
+    border-radius: 10px;
+    padding: 1.5rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.produc-head > img {
+    width: 17.6rem;
+    height: 11.2rem;
+    border-radius: 10px;
+    box-shadow: 0 3px #9d174d;
+    margin-bottom: 1.5rem;
+}
+
+.produc-head > h2 {
+    font-size: 1.7rem;
+}
+
+.produc-info {
+    font-size: 1.9rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 2rem;
+}
+
+.produc-info > h2 > span {
+    color: #9d174d;
+}

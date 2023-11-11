@@ -1,7 +1,7 @@
 import React from 'react'
-import styles from './Like.module.css'
+import styles from './LikeBtn.module.css'
 
-const Like = () => {
+const LikeBtn = () => {
     return (
         <svg className={styles.like}
             viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
@@ -11,4 +11,4 @@ const Like = () => {
     )
 };
 
-export default Like;
+export default LikeBtn;
