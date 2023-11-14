@@ -1,6 +1,6 @@
 .bag {
-    font-size: 10rem;
-    stroke-width: 0;
+    font-size: 8rem;
+    cursor: pointer;
 }
 
 .bag:hover {

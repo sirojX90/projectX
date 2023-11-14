@@ -1,16 +1,23 @@
 .navbar {
+    width: 100%;
     color: #fff;
-    background-color: #092f67;
-    padding: 3rem 7rem;
+    background-color: #0d2c5a;
+    padding: 2rem 7rem;
+    position: fixed;
+    z-index: 9;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.likeBag {
-    font-size: 4rem;
-    color: #fff;
-    display: flex;
-    gap: 4rem;
-    align-items: center;
+.like-bag {
+    position: relative;
+}
+
+.count-number {
+    font-size: .5rem;
+    position: absolute;
+    bottom: -1.8rem;
+    right: 1rem;
+    font-size: 2rem;
 }

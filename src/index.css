@@ -16,12 +16,6 @@ html {
 }
 
 body {
-    font-size: 3rem;
     background-color: #fff;
     font-family: Gstatic;
-}
-
-.container {
-    max-width: 100rem;
-    margin: 0 auto;
 }

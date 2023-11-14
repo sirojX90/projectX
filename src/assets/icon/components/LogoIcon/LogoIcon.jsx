@@ -1,9 +1,11 @@
-import React from 'react';
-import styles from './Logo.module.css';
+import React, { useContext } from 'react';
+import ProducContext from '../../../../context/produc-context';
+import styles from './LogoIcon.module.css';
 
-const Logo = () => {
+const LogoIcon = () => {
+    const ctx = useContext(ProducContext);
     return (
-        <svg className={styles.logo} stroke="currentColor" fill="none" viewBox="0 0 24 24" 
+        <svg className={styles.logo} onClick={() => ctx.onToggleRoute('home')} strokeLinecap="round" strokeWidth="2" strokeLinejoin="round" stroke="currentColor" fill="none" viewBox="0 0 24 24" 
             id="icon-in-div" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
             <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
             <path
@@ -16,4 +18,4 @@ const Logo = () => {
     )
 };
 
-export default Logo;
+export default LogoIcon;

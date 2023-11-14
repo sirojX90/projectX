@@ -1,20 +1,20 @@
-import React from 'react'
-import styles from './Products.module.css'
-import ProductsItem from './ProductsItem'
+import React from 'react';
+import styles from './Products.module.css';
+import Product from '../Product/Product';
 // data products
-import products from '../../data/data'
+import products from '../../data/data';
 
 const Products = () => {
   return (
-    <div className={styles.box}>
+    <div className={styles.products}>
         <h1>PRODUCTS</h1>
-        <div className={styles['box-item']}>
+        <div className={styles['products-item']}>
             {products.map((produc) => (
-                <ProductsItem key={produc.id} produc={produc}/>
+                <Product key={produc.id} produc={produc}/>
             ))}
         </div>
     </div>
-  )
-}
+  );
+};
 
-export default Products
+export default Products;
