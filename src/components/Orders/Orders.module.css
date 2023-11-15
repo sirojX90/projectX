@@ -1,6 +1,6 @@
 .orders {
     text-align: center;
-    font-size: 3rem;
+    font-size: 3.4rem;
     padding-top: 10rem;
 }
 
@@ -8,6 +8,10 @@
     margin-bottom: 2rem;
 }
 
-.orders > .info {
+.orders-title {
     margin: 20rem 0;
+}
+
+.total-price {
+    font-size: 3.3rem;
 }

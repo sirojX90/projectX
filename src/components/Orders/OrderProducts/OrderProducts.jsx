@@ -6,7 +6,7 @@ import styles from './OrderProducts.module.css';
 const OrderProducts = ({ produc }) => {
   const ctx = useContext(ProducContext);
   return (
-     <div className={styles.order}>
+    <div className={styles.order}>
       <div className={styles['order-img-edit']}>
         <img className={styles['order-img']} src={produc.thumbnail} alt={produc.brand} />
         <div className={styles['order-edit']}>
@@ -21,7 +21,7 @@ const OrderProducts = ({ produc }) => {
       </div>
       <dir className={styles['order-price']}>
         <p><span>$ </span>{produc.price * produc.count}</p>
-        <span className={styles.delete}>
+        <span className={styles.delete} onClick={() => ctx.deleteItem(produc)}>
           <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 -20 448 512" height=".9em" width=".9em"
             xmlns="http://www.w3.org/2000/svg">
             <path

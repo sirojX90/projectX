@@ -3,3 +3,11 @@
     font-size: 3rem;
     padding-top: 10rem;
 }
+
+.likes > h2 {
+    margin-bottom: 2rem;
+}
+
+.likes-title {
+    margin: 20rem 0;
+}

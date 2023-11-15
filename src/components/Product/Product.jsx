@@ -13,7 +13,7 @@ const Product = ({produc}) => {
       <dir className={styles['produc-info']}>
         <h2><span>$ </span>{produc.price}</h2>
         <div className={styles['like-basket']}>
-          <img src={likeBlack} alt="img"/>
+          <img onClick={() => ctx.onAddLike(produc)} src={likeBlack} alt="img"/>
           <BasketIcon produc={produc}/>
         </div>
       </dir>

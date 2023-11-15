@@ -1,0 +1,47 @@
+.like {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto;
+    box-shadow: 0 0 2px #252b48;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    position: relative;
+}
+
+.like-img {
+    width: 20%;
+    height: 15rem;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 3px #9d174d;
+}
+
+.like-details {
+    width: 60%;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+    padding: 0 4rem;
+}
+
+.like-price {
+    width: 20%;
+    font-size: 3.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.like-price > p > span {
+    color: #9d174d;
+}
+
+.like-price > span {
+    color: #9d174d;
+}

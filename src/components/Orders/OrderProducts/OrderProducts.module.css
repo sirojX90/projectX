@@ -34,20 +34,18 @@
     justify-content: space-between;
 }
 
-.order-edit > button:nth-child(1) {
+.order-edit > button {
     width: 30%;
+    padding: .3rem;
     background-color: #faf9f9;
     border: 1px solid #dcd9d9;
+    cursor: pointer;
 }
 
-.order-edit > div:nth-child(2) {
-    width: 30%;
-    background-color: #faf9f9;
-    border: 1px solid #dcd9d9;
-}
-
-.order-edit > button:nth-child(3) {
+.order-edit > div {
     width: 40%;
+    padding: .3rem;
+    background-color: #faf9f9;
     border: 1px solid #dcd9d9;
 }
 
